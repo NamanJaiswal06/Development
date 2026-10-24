@@ -1,0 +1,19 @@
+{
+  "name": "user-profile-cache-json-vs-hash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/api.js",
+  "scripts": {
+    "dev": "node --watch src/api.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "ioredis": "^5.9.2",
+    "mongoose": "9.9.3",
+    "bullmq": "^5.4.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
